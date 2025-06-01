@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.xlx</groupId>
+        <artifactId>xgmall</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>xgmall-web</artifactId>
+    <packaging>jar</packaging>
+    <name>xgmall-web</name>
+
+    <properties>
+        <repackage.skip>false</repackage.skip> <!-- 开启 repackage -->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-security</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
