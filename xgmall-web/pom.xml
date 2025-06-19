@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.xlx</groupId>
-        <artifactId>xgmall</artifactId>
+        <artifactId>xgmall-parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -31,6 +31,41 @@
         <dependency>
             <groupId>com.xlx</groupId>
             <artifactId>xgmall-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-dto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
         </dependency>
     </dependencies>
 

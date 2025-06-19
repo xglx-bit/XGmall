@@ -2,10 +2,12 @@ package com.xlx;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 @SpringBootApplication
-public class WebApplication {
+@EntityScan("com.xlx.entity")
+public class XgMallApplication {
     public static void main(String[] args) {
-        SpringApplication.run(WebApplication.class,args);
+        SpringApplication.run(XgMallApplication.class,args);
     }
 }

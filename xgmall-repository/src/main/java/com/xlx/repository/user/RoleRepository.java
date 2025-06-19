@@ -1,4 +1,4 @@
 package com.xlx.repository.user;
 
-public class RoleRepository {
+public interface RoleRepository {
 }

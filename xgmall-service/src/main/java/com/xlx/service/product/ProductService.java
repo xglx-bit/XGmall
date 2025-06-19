@@ -1,4 +1,8 @@
 package com.xlx.service.product;
 
-public class ProductService {
+import com.xlx.dto.productDomain.product.ProductSaveDTO;
+
+
+public interface ProductService {
+    void  productAdd(ProductSaveDTO productSaveDTO);
 }

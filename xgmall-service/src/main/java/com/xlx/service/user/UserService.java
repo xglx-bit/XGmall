@@ -1,4 +1,8 @@
 package com.xlx.service.user;
 
-public class UserService {
+import com.xlx.dto.userDomain.UserRegisterDTO;
+
+public interface UserService {
+    void userRegister(UserRegisterDTO dto);
+
 }

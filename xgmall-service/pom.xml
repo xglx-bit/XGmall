@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.xlx</groupId>
-        <artifactId>xgmall</artifactId>
+        <artifactId>xgmall-parent </artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -18,7 +18,30 @@
 
 
     <dependencies>
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-repository</artifactId>
+        </dependency>
 
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-entity</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-dto</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.xlx</groupId>
+            <artifactId>xgmall-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
 
     </dependencies>
 </project>
